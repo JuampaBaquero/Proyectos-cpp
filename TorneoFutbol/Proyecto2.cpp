@@ -1,5 +1,5 @@
 #include <iostream>
-#include <unistd.h>
+#include <windows.h>
 
 using namespace std;
 
@@ -68,11 +68,25 @@ int main()
          << "+-----------------------------------------------------|" << endl;
     cargaDatos(torneo);
     cargar(3);
-    while(ingreso != 6)
+    while(ingreso != 7)
     {
         cout << "+---------------- TORNEO COPA SUPREMA ----------------+" << endl
-             << "|   1) ";
+             << "|   1) Incluir un equipo al torneo                    |" << endl
+             << "|   2) Eliminar un equipo del torneo                  |" << endl
+             << "|   3) Registrar un partido                           |" << endl
+             << "|   4) Actualizar estadísticas de un jugador          |" << endl
+             << "|   5) Registrar un nuevo jugador en el torneo        |" << endl
+             << "|   6) Mostrar estadísticas de jugadores              |" << endl
+             << "|   7) Salir.                                         |" << endl
+             << "+-----------------------------------------------------+" << endl
+             << "|--> ";
         cin >> ingreso;
+
+        while(ingreso < 1 && ingreso > 7){
+            cout << "El dato ingresado es erróneo." << endl
+                 << "Ingreselo nuevamente -> ";
+            cin >> ingreso;
+        }
     }
 }
 
