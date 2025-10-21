@@ -1,7 +1,27 @@
 #include <iostream>
+#include <fstream>
 #include <windows.h>
 
 using namespace std;
+
+/*
+ESTRUCTRURA DE LOS ARCHIVOS
+
+EQUIPOS
+//num equipos
+//nombre, numero de jugadores
+
+JUGADORES
+//equipos, num idiomas, idiomas, nombre, nacionalidad, posicion, codigo, fecha nacimiento, dorsal, num logros, logros
+
+PARTIDO
+num partidos
+//local, visitante, sede, arbitro, fecha, goles local, goles visitantes, numJugadores estadística
+// -> por jugador: equipo, nombre, numgoles, asistencias, tarjetas, minJugados
+
+EL MAYOR NUMERO DE PARTIDOS, ES DE 63, PORQUE EN FASE DE GRUPOS SE JUEGAN 6 X 8 PARTIDOS
+MÁS LOS DE ELIMINACIÓN DIRECTA, QUE SON 15, PARA QUE SE ELIMINE UN PARTIDO POR EQUIPO
+*/
 
 struct Partido
 {
@@ -26,28 +46,34 @@ struct Jugador
 {
     Estadisticas estadisticas;
     string idiomas[3];
-    char logros[5];
     string nombre;
     string nacionalidad;
     string posicion;
+    int numIdiomas;
+    int numLogros;
     int codigo;
     int fechaNacimiento; // DDMMAAAA
     int dorsal;
+    char logros[5];
 };
 
 struct Equipo
 {
+    Jugador jugadores[10];
     string nombre; // Nombre corto, por ejemplo, BRA, COL...
     int numJugadores;
     char grupo;
-    Jugador jugadores[10];
 };
 
 struct Torneo{
     Equipo equipos[32];
+    Partidos partidos[63];
+    int numEquipos;
+    int numPartidos;
+    bool cargoBien;
 };
 
-void cargaDatos(Torneo &);
+Torneo cargaDatos();
 void incluirEquipo(Torneo &, Equipo);
 void eliminarEquipo(Torneo &, int);
 void registrarPartido(Partido);
@@ -56,6 +82,11 @@ void registrarJugador(Jugador, Equipo &);
 void menuConsultas(Torneo &);
 void archivoHistorico(Torneo &);
 void cargar(int);
+
+//Funciones de apoyo
+bool leerEquipos(Torneos &torneo);
+bool leerJugadores(Torneo &torneo);
+bool leerPartidos(Torneo &torneo);
 
 int main()
 {
@@ -82,7 +113,8 @@ int main()
              << "|--> ";
         cin >> ingreso;
 
-        while(ingreso < 1 && ingreso > 7){
+        while(ingreso < 1 && ingreso > 7)
+        {
             cout << "El dato ingresado es erróneo." << endl
                  << "Ingreselo nuevamente -> ";
             cin >> ingreso;
@@ -90,12 +122,59 @@ int main()
     }
 }
 
-void cargaDatos(Torneo &)
+Torneo cargaDatos()
 {
-    // Lee el archivo equipos.txt
-    // Lee el archivo jugadores.txt
-    // Lee resultadosParciales.txt
+    Torneo miTorneo;
+    if(leerEquipos(miTorneo) && leerJugadores(miTorneo) && leerPartidos(miTorneo)) miTorneo.cargoBien = false;
+    return miTorneo;
 }
+
+bool leerEquipos(Torneos &torneo)
+{
+//    EQUIPOS
+//num equipos
+//nombre, numero de jugadores
+
+    string buffer;
+    string token;
+    ifstream flujoEquipos("equipos.txt", ios::in);
+
+    if(!flujoEquipos.is_open())
+    {
+        cout << "No se ha podido encontrar el archivo 'equipos.txt'";
+        return true;
+    }
+
+    buffer = flujoEquipos.getline();
+    torneo.numEquipos = to_integer(buffer);
+
+    char grupoActual = 'A';
+
+    for(int i = 0; i < miTorneo.numEquipos; i++)
+    {
+        torneo.equipos[i].grupo = grupoActual;
+        grupoActual++; //Asigno los grupos
+
+        getline(flujoEquipos, token, ',');
+        torneo.equipos[i].nombre = token;
+
+        getline(flujoEquipos, token, ',');
+        torneo.equipos[i].numJugadores = to_integer(token);
+
+        buffer = flujoEquipos.getline();
+    }
+    flujoEquipos.close();
+    return false;
+}
+bool leerJugadores(Torneo &torneo)
+{
+    string buffer;
+}
+bool leerPartidos(Torneo &torneo)
+{
+
+}
+
 void incluirEquipo(Torneo &, Equipo)
 {
     // Registrar nuevo equipo
