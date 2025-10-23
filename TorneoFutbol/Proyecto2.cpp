@@ -6,13 +6,14 @@ using namespace std;
 
 /*
 ESTRUCTRURA DE LOS ARCHIVOS
+Todo está separado por espacios, no por comas, las comas solo es para la legibilidad
 
 EQUIPOS
 //num equipos
 //nombre, numero de jugadores
 
 JUGADORES
-//equipos, num idiomas, idiomas, nombre, nacionalidad, posicion, codigo, fecha nacimiento, dorsal, num logros, logros
+//equipos, nombre, num idiomas, idiomas, nacionalidad, posicion, codigo, fecha nacimiento, dorsal, num logros, logros
 
 PARTIDO
 num partidos
@@ -29,6 +30,7 @@ struct Partido
     string visitante;
     string sede;
     string arbitro;
+    int numJugCambiados;
     int fecha; //AAAAMMDD
     int golLocal;
     int golVisitantes;
@@ -36,10 +38,10 @@ struct Partido
 
 struct Estadisticas
 {
-    int numGoles;
-    int asistencias;
-    int tarjetas;
-    int minJugados;
+    int numGoles = 0;
+    int asistencias= 0;
+    int tarjetas = 0;
+    int minJugados = 0;
 };
 
 struct Jugador
@@ -67,8 +69,9 @@ struct Equipo
 
 struct Torneo{
     Equipo equipos[32];
-    Partidos partidos[63];
+    Partido partidos[63];
     int numEquipos;
+    int totalJugadores;
     int numPartidos;
     bool cargoBien;
 };
@@ -84,7 +87,7 @@ void archivoHistorico(Torneo &);
 void cargar(int);
 
 //Funciones de apoyo
-bool leerEquipos(Torneos &torneo);
+bool leerEquipos(Torneo &torneo);
 bool leerJugadores(Torneo &torneo);
 bool leerPartidos(Torneo &torneo);
 
@@ -97,7 +100,7 @@ int main()
          << "|                                                     |" << endl
          << "|           ESTAMOS CARGANDO LOS ARCHIVOS             |" << endl
          << "+-----------------------------------------------------|" << endl;
-    cargaDatos(torneo);
+    torneo = cargaDatos();
     cargar(3);
     while(ingreso != 7)
     {
@@ -125,18 +128,26 @@ int main()
 Torneo cargaDatos()
 {
     Torneo miTorneo;
-    if(leerEquipos(miTorneo) && leerJugadores(miTorneo) && leerPartidos(miTorneo)) miTorneo.cargoBien = false;
+    if(leerEquipos(miTorneo) || leerJugadores(miTorneo) || leerPartidos(miTorneo)) miTorneo.cargoBien = false;
     return miTorneo;
 }
 
-bool leerEquipos(Torneos &torneo)
+int buscarEquipo(string buscar, Torneo torneo)
+{
+    for(int i = 0; i < torneo.numEquipos; i++)
+    {
+        if(torneo.equipos[i].nombre == buscar) return i;
+    }
+    return -1; //Por si falla
+}
+
+bool leerEquipos(Torneo &torneo)
 {
 //    EQUIPOS
 //num equipos
 //nombre, numero de jugadores
 
     string buffer;
-    string token;
     ifstream flujoEquipos("equipos.txt", ios::in);
 
     if(!flujoEquipos.is_open())
@@ -145,34 +156,185 @@ bool leerEquipos(Torneos &torneo)
         return true;
     }
 
-    buffer = flujoEquipos.getline();
-    torneo.numEquipos = to_integer(buffer);
+    flujoEquipos >> buffer;
+    torneo.numEquipos = stoi(buffer);
 
     char grupoActual = 'A';
 
-    for(int i = 0; i < miTorneo.numEquipos; i++)
+    for(int i = 0; i < torneo.numEquipos; i++)
     {
         torneo.equipos[i].grupo = grupoActual;
         grupoActual++; //Asigno los grupos
 
-        getline(flujoEquipos, token, ',');
-        torneo.equipos[i].nombre = token;
+        flujoEquipos >> buffer;
+        torneo.equipos[i].nombre = buffer;
 
-        getline(flujoEquipos, token, ',');
-        torneo.equipos[i].numJugadores = to_integer(token);
+        flujoEquipos >> buffer;
+        torneo.equipos[i].numJugadores = stoi(buffer);
 
-        buffer = flujoEquipos.getline();
-    }
+        torneo.totalJugadores += torneo.equipos[i].numJugadores;
+    }          
     flujoEquipos.close();
+
     return false;
 }
 bool leerJugadores(Torneo &torneo)
 {
+    //equipos, nombre, num idiomas, idiomas,  nacionalidad, posicion, codigo, fecha nacimiento, dorsal, num logros, logros
+    //Asumimos que esto está ordenado por equipos.
+    // de la anterior función tengo el total de jugadores
     string buffer;
+    ifstream flujoJugadores("jugadores.txt", ios::in);
+
+    if(!flujoJugadores.is_open())
+    {
+        cout << "El archivo jugadores.txt no se ha podido abrir exitosamente.";
+        return true;
+    }
+
+    int jugadorAct = 0;
+    string equipoAnterior = "";
+    for(int i = 0; i < torneo.totalJugadores; i++)
+    {
+        flujoJugadores >> buffer;
+        int indiceEquipo = buscarEquipo(buffer, torneo); 
+        if(equipoAnterior != buffer) jugadorAct = 0;
+        equipoAnterior = buffer;
+
+        flujoJugadores >> buffer;
+        if(indiceEquipo == -1)
+        {
+            cout << "El jugador -> " << buffer << " no se le ha podido asignar un equipo.";
+            continue;
+        }  
+        torneo.equipos[indiceEquipo].jugadores[jugadorAct].nombre = buffer;
+
+        flujoJugadores >> buffer;
+        torneo.equipos[indiceEquipo].jugadores[jugadorAct].numIdiomas = stoi(buffer);
+
+        for(int j = 0; j < torneo.equipos[indiceEquipo].jugadores[jugadorAct].numIdiomas; j++)
+        {
+            //Si son 0 idiomas, esto no se ejecuta.
+            flujoJugadores >> buffer;
+            torneo.equipos[indiceEquipo].jugadores[jugadorAct].idiomas[j] = buffer; 
+        }
+
+        flujoJugadores >> buffer;
+        torneo.equipos[indiceEquipo].jugadores[jugadorAct].nacionalidad = buffer;
+
+        flujoJugadores >> buffer;
+        torneo.equipos[indiceEquipo].jugadores[jugadorAct].posicion = buffer;
+
+        flujoJugadores >> buffer;
+        torneo.equipos[indiceEquipo].jugadores[jugadorAct].codigo = stoi(buffer);
+
+        flujoJugadores >> buffer;
+        torneo.equipos[indiceEquipo].jugadores[jugadorAct].fechaNacimiento = stoi(buffer);
+
+        flujoJugadores >> buffer;
+        torneo.equipos[indiceEquipo].jugadores[jugadorAct].dorsal = stoi(buffer);
+
+        flujoJugadores >> buffer;
+        torneo.equipos[indiceEquipo].jugadores[jugadorAct].numLogros = stoi(buffer);
+
+        for(int j = 0; j < torneo.equipos[indiceEquipo].jugadores[jugadorAct].numLogros; j++)
+        {
+            flujoJugadores >> buffer;
+            char logroAct = torneo.equipos[indiceEquipo].jugadores[jugadorAct].logros[j];
+            logroAct = buffer[0];
+            // Cojo el primer caracter de la cadena de texto, por si está mal en el archivo
+
+            if(logroAct != 'E' && logroAct != 'B' && logroAct != 'A') logroAct = 'I';
+             //Indicador personal de que algo está mal
+        }
+        jugadorAct++;
+    }
+    return false;
 }
 bool leerPartidos(Torneo &torneo)
 {
 
+// num partidos
+// local, visitante, sede, arbitro, fecha, goles local, goles visitantes, numJugadores estadística
+
+    string buffer;
+    ifstream flujoPartidos("partidos.txt", ios::in);
+
+    flujoPartidos >> buffer;
+    torneo.numPartidos = stoi(buffer);
+
+    for(int i = 0; i < torneo.numPartidos; i++)
+    {
+        flujoPartidos >> buffer;
+        if(buscarEquipo(buffer, torneo) == -1) 
+        {
+            cout << "El equipo local no existe o está mal registrado.\n";
+            return true;
+        } 
+        torneo.partidos[i].local = buffer;
+        
+        flujoPartidos >> buffer;
+        if(buscarEquipo(buffer, torneo) == -1)
+        {
+            cout << "El equipo visitante no existe o está mal registrado.\n";
+            return true;
+        } 
+        torneo.partidos[i].visitante = buffer;
+
+        flujoPartidos >> buffer;
+        torneo.partidos[i].sede = buffer;
+        
+        flujoPartidos >> buffer;
+        torneo.partidos[i].arbitro = buffer;
+
+        flujoPartidos >> buffer;
+        torneo.partidos[i].visitante = buffer;
+
+        flujoPartidos >> buffer;
+        torneo.partidos[i].fecha = stoi(buffer);
+
+        flujoPartidos >> buffer;
+        torneo.partidos[i].golLocal = stoi(buffer);
+
+        flujoPartidos >> buffer;
+        torneo.partidos[i].golVisitantes = stoi(buffer);
+
+        flujoPartidos >> buffer;
+        torneo.partidos[i].numJugCambiados = stoi(buffer);
+
+        // -> por jugador: equipo, nombre, numgoles, asistencias, tarjetas, minJugados
+        flujoPartidos >> buffer;
+        int equipoAct = buscarEquipo(buffer, torneo); 
+        flujoPartidos >> buffer;
+        if(equipoAct == -1)
+        {
+            cout << "El jugador " << buffer << " parece no pertenecer a ningún equipo. Revise la sintaxis."; 
+            return true;
+        }
+
+        int jugadorAct = -1;
+        for(int j = 0; j < torneo.equipos[equipoAct].numJugadores; j++)
+        {
+            if(torneo.equipos[equipoAct].jugadores[j].nombre == buffer) jugadorAct = j;
+        }
+        if(jugadorAct == 1)
+        {
+            cout << "El jugador " << buffer << " no se ha encontrado en el equipo.";
+            return true;
+        }
+        flujoPartidos >> buffer;
+        torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.numGoles += stoi(buffer);
+        
+        flujoPartidos >> buffer;
+        torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.asistencias += stoi(buffer);
+        
+        flujoPartidos >> buffer;
+        torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.tarjetas += stoi(buffer);
+        
+        flujoPartidos >> buffer;
+        torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.minJugados += stoi(buffer);
+    }
+    return false;
 }
 
 void incluirEquipo(Torneo &, Equipo)
