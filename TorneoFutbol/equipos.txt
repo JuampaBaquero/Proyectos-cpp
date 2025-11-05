@@ -1,0 +1,16 @@
+15
+Tigres del Norte, 10
+Águilas Doradas, 10
+Leones Rojos, 10
+Toros Salvajes, 10
+Cóndores FC, 10
+Guerreros Azules, 10
+Pumas del Sur, 10
+Halcones Negros, 10
+Tiburones del Caribe, 10
+Panteras Blancas, 10
+Dragones de Fuego, 10
+Lobos de la Sierra, 10
+Caimanes Verdes, 10
+Búfalos Dorados, 10
+Serpientes Reales, 10
