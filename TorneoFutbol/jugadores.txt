@@ -1,150 +1,150 @@
-Tigres del Norte, Jugador_Tigres_del_Norte_1, 2, Italiano/Español, Mexicana, Defensa, J1000, 20040625, 60, 1, E
-Tigres del Norte, Jugador_Tigres_del_Norte_2, 3, Italiano/Portugués/Inglés, Colombiana, Mediocampista, J1001, 19990307, 15, 0
-Tigres del Norte, Jugador_Tigres_del_Norte_3, 3, Francés/Italiano/Portugués, Paraguaya, Mediocampista, J1002, 19880115, 86, 0
-Tigres del Norte, Jugador_Tigres_del_Norte_4, 1, Portugués, Brasilera, Defensa, J1003, 20001018, 63, 0
-Tigres del Norte, Jugador_Tigres_del_Norte_5, 2, Inglés/Portugués, Paraguaya, Defensa, J1004, 19971111, 63, 5, B/E/E/E/A
-Tigres del Norte, Jugador_Tigres_del_Norte_6, 1, Alemán, Paraguaya, Defensa, J1005, 19980322, 66, 5, A/E/B/A/E
-Tigres del Norte, Jugador_Tigres_del_Norte_7, 1, Español, Brasilera, Defensa, J1006, 19850115, 47, 4, A/A/E/B
-Tigres del Norte, Jugador_Tigres_del_Norte_8, 2, Alemán/Inglés, Chilena, Defensa, J1007, 19930909, 63, 4, A/A/E/A
-Tigres del Norte, Jugador_Tigres_del_Norte_9, 3, Francés/Italiano/Alemán, Mexicana, Mediocampista, J1008, 20051022, 17, 0
-Tigres del Norte, Jugador_Tigres_del_Norte_10, 1, Italiano, Ecuatoriana, Mediocampista, J1009, 19951216, 76, 5, E/B/E/A/E
-Águilas Doradas, Jugador_Águilas_Doradas_1, 2, Español/Portugués, Brasilera, Mediocampista, J1010, 19920522, 34, 5, E/A/E/B/A
-Águilas Doradas, Jugador_Águilas_Doradas_2, 2, Español/Alemán, Colombiana, Defensa, J1011, 19850806, 81, 5, B/E/A/B/E
-Águilas Doradas, Jugador_Águilas_Doradas_3, 1, Inglés, Colombiana, Mediocampista, J1012, 19971005, 90, 1, B
-Águilas Doradas, Jugador_Águilas_Doradas_4, 2, Español/Portugués, Argentina, Mediocampista, J1013, 20001119, 36, 3, B/B/E
-Águilas Doradas, Jugador_Águilas_Doradas_5, 3, Italiano/Francés/Inglés, Colombiana, Delantero, J1014, 19971211, 74, 3, B/A/A
-Águilas Doradas, Jugador_Águilas_Doradas_6, 3, Alemán/Inglés/Español, Ecuatoriana, Delantero, J1015, 19850529, 47, 1, E
-Águilas Doradas, Jugador_Águilas_Doradas_7, 3, Francés/Portugués/Español, Brasilera, Portero, J1016, 19870531, 99, 4, A/B/A/A
-Águilas Doradas, Jugador_Águilas_Doradas_8, 1, Francés, Uruguaya, Portero, J1017, 19890725, 10, 5, B/A/B/B/A
-Águilas Doradas, Jugador_Águilas_Doradas_9, 1, Español, Uruguaya, Portero, J1018, 19871023, 5, 3, E/B/E
-Águilas Doradas, Jugador_Águilas_Doradas_10, 1, Francés, Venezolana, Defensa, J1019, 19920315, 58, 3, E/B/A
-Leones Rojos, Jugador_Leones_Rojos_1, 3, Portugués/Alemán/Italiano, Argentina, Defensa, J1020, 20030630, 45, 5, A/A/E/B/A
-Leones Rojos, Jugador_Leones_Rojos_2, 2, Inglés/Alemán, Paraguaya, Delantero, J1021, 19861017, 3, 1, E
-Leones Rojos, Jugador_Leones_Rojos_3, 2, Alemán/Español, Venezolana, Mediocampista, J1022, 19990601, 41, 5, E/E/A/E/E
-Leones Rojos, Jugador_Leones_Rojos_4, 2, Francés/Italiano, Brasilera, Delantero, J1023, 20050429, 18, 3, A/A/A
-Leones Rojos, Jugador_Leones_Rojos_5, 3, Español/Inglés/Francés, Colombiana, Portero, J1024, 19880927, 42, 4, A/A/B/A
-Leones Rojos, Jugador_Leones_Rojos_6, 1, Francés, Colombiana, Delantero, J1025, 20020809, 62, 4, B/B/A/E
-Leones Rojos, Jugador_Leones_Rojos_7, 1, Portugués, Argentina, Defensa, J1026, 19860116, 33, 2, E/E
-Leones Rojos, Jugador_Leones_Rojos_8, 1, Italiano, Chilena, Portero, J1027, 19990805, 66, 4, A/B/B/E
-Leones Rojos, Jugador_Leones_Rojos_9, 2, Portugués/Francés, Venezolana, Defensa, J1028, 19981231, 2, 4, B/B/B/B
-Leones Rojos, Jugador_Leones_Rojos_10, 3, Alemán/Italiano/Portugués, Peruana, Defensa, J1029, 19980803, 99, 2, B/E
-Toros Salvajes, Jugador_Toros_Salvajes_1, 3, Alemán/Inglés/Portugués, Mexicana, Delantero, J1030, 19890129, 92, 3, E/B/B
-Toros Salvajes, Jugador_Toros_Salvajes_2, 3, Portugués/Alemán/Francés, Uruguaya, Mediocampista, J1031, 19850131, 86, 0
-Toros Salvajes, Jugador_Toros_Salvajes_3, 1, Español, Argentina, Defensa, J1032, 20040424, 68, 4, A/E/E/E
-Toros Salvajes, Jugador_Toros_Salvajes_4, 2, Español/Italiano, Uruguaya, Defensa, J1033, 19960412, 65, 3, A/E/E
-Toros Salvajes, Jugador_Toros_Salvajes_5, 2, Francés/Alemán, Argentina, Delantero, J1034, 19920411, 55, 1, A
-Toros Salvajes, Jugador_Toros_Salvajes_6, 2, Italiano/Portugués, Paraguaya, Defensa, J1035, 20000907, 74, 5, A/B/E/B/B
-Toros Salvajes, Jugador_Toros_Salvajes_7, 3, Portugués/Inglés/Francés, Mexicana, Mediocampista, J1036, 19881206, 69, 0
-Toros Salvajes, Jugador_Toros_Salvajes_8, 1, Portugués, Argentina, Defensa, J1037, 20050716, 41, 2, E/E
-Toros Salvajes, Jugador_Toros_Salvajes_9, 3, Inglés/Francés/Español, Chilena, Delantero, J1038, 19880220, 9, 3, B/A/E
-Toros Salvajes, Jugador_Toros_Salvajes_10, 3, Francés/Italiano/Inglés, Argentina, Delantero, J1039, 19910708, 47, 1, A
-Cóndores FC, Jugador_Cóndores_FC_1, 3, Alemán/Español/Portugués, Mexicana, Defensa, J1040, 20010426, 39, 1, B
-Cóndores FC, Jugador_Cóndores_FC_2, 1, Inglés, Colombiana, Mediocampista, J1041, 19910410, 3, 5, A/A/B/B/A
-Cóndores FC, Jugador_Cóndores_FC_3, 1, Italiano, Venezolana, Mediocampista, J1042, 19910201, 53, 3, A/B/A
-Cóndores FC, Jugador_Cóndores_FC_4, 1, Portugués, Venezolana, Mediocampista, J1043, 19931016, 7, 1, A
-Cóndores FC, Jugador_Cóndores_FC_5, 2, Italiano/Portugués, Colombiana, Mediocampista, J1044, 19901218, 12, 2, E/B
-Cóndores FC, Jugador_Cóndores_FC_6, 1, Inglés, Chilena, Delantero, J1045, 19890410, 82, 4, A/A/A/B
-Cóndores FC, Jugador_Cóndores_FC_7, 1, Portugués, Ecuatoriana, Portero, J1046, 20041228, 74, 0
-Cóndores FC, Jugador_Cóndores_FC_8, 2, Portugués/Alemán, Mexicana, Defensa, J1047, 19870114, 9, 5, B/B/E/B/E
-Cóndores FC, Jugador_Cóndores_FC_9, 2, Alemán/Español, Paraguaya, Delantero, J1048, 19870824, 38, 3, E/E/B
-Cóndores FC, Jugador_Cóndores_FC_10, 2, Italiano/Español, Venezolana, Portero, J1049, 19991006, 56, 4, B/A/B/B
-Guerreros Azules, Jugador_Guerreros_Azules_1, 3, Español/Alemán/Inglés, Ecuatoriana, Delantero, J1050, 19871215, 20, 4, A/A/B/A
-Guerreros Azules, Jugador_Guerreros_Azules_2, 3, Italiano/Alemán/Portugués, Ecuatoriana, Delantero, J1051, 19990918, 94, 4, E/A/B/A
-Guerreros Azules, Jugador_Guerreros_Azules_3, 2, Portugués/Alemán, Colombiana, Defensa, J1052, 19920430, 35, 4, E/A/A/B
-Guerreros Azules, Jugador_Guerreros_Azules_4, 3, Español/Portugués/Francés, Uruguaya, Delantero, J1053, 19970720, 23, 4, E/A/A/A
-Guerreros Azules, Jugador_Guerreros_Azules_5, 3, Inglés/Italiano/Francés, Colombiana, Delantero, J1054, 19881022, 93, 4, E/A/B/B
-Guerreros Azules, Jugador_Guerreros_Azules_6, 1, Italiano, Paraguaya, Mediocampista, J1055, 20050709, 21, 3, E/E/A
-Guerreros Azules, Jugador_Guerreros_Azules_7, 3, Inglés/Italiano/Español, Ecuatoriana, Portero, J1056, 19930430, 16, 2, E/E
-Guerreros Azules, Jugador_Guerreros_Azules_8, 3, Inglés/Español/Francés, Chilena, Defensa, J1057, 19940120, 28, 0
-Guerreros Azules, Jugador_Guerreros_Azules_9, 3, Italiano/Español/Francés, Venezolana, Portero, J1058, 20050305, 27, 2, B/E
-Guerreros Azules, Jugador_Guerreros_Azules_10, 2, Francés/Inglés, Paraguaya, Mediocampista, J1059, 19920224, 54, 4, E/A/B/E
-Pumas del Sur, Jugador_Pumas_del_Sur_1, 3, Alemán/Portugués/Francés, Argentina, Mediocampista, J1060, 19910419, 26, 0
-Pumas del Sur, Jugador_Pumas_del_Sur_2, 1, Español, Chilena, Mediocampista, J1061, 19980215, 52, 4, A/A/E/A
-Pumas del Sur, Jugador_Pumas_del_Sur_3, 3, Francés/Portugués/Alemán, Argentina, Defensa, J1062, 19981012, 84, 2, B/B
-Pumas del Sur, Jugador_Pumas_del_Sur_4, 3, Alemán/Español/Francés, Argentina, Delantero, J1063, 19931007, 19, 2, A/B
-Pumas del Sur, Jugador_Pumas_del_Sur_5, 2, Italiano/Español, Venezolana, Portero, J1064, 19910105, 9, 3, E/B/A
-Pumas del Sur, Jugador_Pumas_del_Sur_6, 2, Español/Francés, Paraguaya, Defensa, J1065, 19910116, 67, 3, B/A/A
-Pumas del Sur, Jugador_Pumas_del_Sur_7, 3, Inglés/Francés/Italiano, Paraguaya, Delantero, J1066, 19981030, 61, 1, E
-Pumas del Sur, Jugador_Pumas_del_Sur_8, 2, Francés/Alemán, Brasilera, Portero, J1067, 19920209, 76, 3, A/E/A
-Pumas del Sur, Jugador_Pumas_del_Sur_9, 2, Italiano/Alemán, Ecuatoriana, Mediocampista, J1068, 19921219, 1, 3, A/B/E
-Pumas del Sur, Jugador_Pumas_del_Sur_10, 2, Alemán/Inglés, Brasilera, Mediocampista, J1069, 20000117, 48, 0
-Halcones Negros, Jugador_Halcones_Negros_1, 1, Alemán, Chilena, Portero, J1070, 19990721, 92, 4, A/E/B/B
-Halcones Negros, Jugador_Halcones_Negros_2, 2, Inglés/Francés, Venezolana, Defensa, J1071, 19960916, 98, 2, A/B
-Halcones Negros, Jugador_Halcones_Negros_3, 1, Italiano, Uruguaya, Portero, J1072, 19940726, 26, 2, B/A
-Halcones Negros, Jugador_Halcones_Negros_4, 1, Italiano, Venezolana, Delantero, J1073, 19990810, 22, 1, B
-Halcones Negros, Jugador_Halcones_Negros_5, 1, Portugués, Colombiana, Delantero, J1074, 19961207, 18, 4, A/B/A/E
-Halcones Negros, Jugador_Halcones_Negros_6, 1, Italiano, Chilena, Mediocampista, J1075, 20020315, 23, 3, E/E/B
-Halcones Negros, Jugador_Halcones_Negros_7, 1, Alemán, Peruana, Portero, J1076, 19900511, 81, 4, E/E/B/A
-Halcones Negros, Jugador_Halcones_Negros_8, 3, Alemán/Inglés/Portugués, Venezolana, Defensa, J1077, 19970608, 38, 5, A/A/E/E/B
-Halcones Negros, Jugador_Halcones_Negros_9, 3, Francés/Portugués/Español, Colombiana, Delantero, J1078, 19920215, 17, 2, A/E
-Halcones Negros, Jugador_Halcones_Negros_10, 2, Portugués/Italiano, Argentina, Defensa, J1079, 19890929, 60, 5, B/E/E/E/A
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_1, 1, Portugués, Brasilera, Delantero, J1080, 20020105, 4, 5, E/A/B/A/E
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_2, 3, Portugués/Español/Italiano, Brasilera, Portero, J1081, 19910906, 82, 0
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_3, 2, Portugués/Español, Paraguaya, Portero, J1082, 20010107, 1, 2, A/E
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_4, 3, Inglés/Español/Italiano, Peruana, Portero, J1083, 20011009, 53, 2, A/B
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_5, 3, Italiano/Portugués/Francés, Paraguaya, Defensa, J1084, 20040127, 38, 5, E/B/E/B/B
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_6, 1, Francés, Ecuatoriana, Mediocampista, J1085, 20050108, 83, 1, B
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_7, 2, Francés/Italiano, Uruguaya, Portero, J1086, 20050829, 2, 0
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_8, 3, Francés/Español/Inglés, Peruana, Delantero, J1087, 19920324, 52, 5, B/A/E/B/A
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_9, 2, Español/Italiano, Venezolana, Portero, J1088, 20040430, 70, 2, A/A
-Tiburones del Caribe, Jugador_Tiburones_del_Caribe_10, 1, Portugués, Ecuatoriana, Portero, J1089, 20040610, 50, 0
-Panteras Blancas, Jugador_Panteras_Blancas_1, 2, Francés/Alemán, Argentina, Portero, J1090, 20030411, 61, 2, A/B
-Panteras Blancas, Jugador_Panteras_Blancas_2, 1, Italiano, Brasilera, Delantero, J1091, 20051112, 36, 0
-Panteras Blancas, Jugador_Panteras_Blancas_3, 2, Alemán/Portugués, Colombiana, Mediocampista, J1092, 19881129, 38, 2, A/A
-Panteras Blancas, Jugador_Panteras_Blancas_4, 3, Inglés/Italiano/Español, Chilena, Delantero, J1093, 19950418, 60, 1, B
-Panteras Blancas, Jugador_Panteras_Blancas_5, 3, Alemán/Español/Inglés, Paraguaya, Portero, J1094, 19870128, 19, 1, A
-Panteras Blancas, Jugador_Panteras_Blancas_6, 1, Portugués, Mexicana, Portero, J1095, 19950624, 79, 3, A/B/E
-Panteras Blancas, Jugador_Panteras_Blancas_7, 2, Inglés/Italiano, Argentina, Mediocampista, J1096, 19850220, 83, 5, A/A/A/E/A
-Panteras Blancas, Jugador_Panteras_Blancas_8, 2, Portugués/Inglés, Peruana, Mediocampista, J1097, 20021122, 80, 5, A/B/B/B/A
-Panteras Blancas, Jugador_Panteras_Blancas_9, 1, Alemán, Peruana, Portero, J1098, 19970726, 73, 4, B/B/E/B
-Panteras Blancas, Jugador_Panteras_Blancas_10, 2, Italiano/Español, Paraguaya, Defensa, J1099, 19930402, 30, 1, A
-Dragones de Fuego, Jugador_Dragones_de_Fuego_1, 1, Portugués, Paraguaya, Mediocampista, J1100, 20010507, 1, 2, A/A
-Dragones de Fuego, Jugador_Dragones_de_Fuego_2, 1, Portugués, Peruana, Portero, J1101, 20030326, 25, 1, E
-Dragones de Fuego, Jugador_Dragones_de_Fuego_3, 2, Francés/Español, Uruguaya, Defensa, J1102, 19970312, 69, 2, A/B
-Dragones de Fuego, Jugador_Dragones_de_Fuego_4, 1, Alemán, Brasilera, Mediocampista, J1103, 19920410, 78, 2, B/E
-Dragones de Fuego, Jugador_Dragones_de_Fuego_5, 2, Italiano/Alemán, Brasilera, Delantero, J1104, 19900514, 52, 1, A
-Dragones de Fuego, Jugador_Dragones_de_Fuego_6, 2, Inglés/Alemán, Uruguaya, Portero, J1105, 20030821, 49, 2, E/B
-Dragones de Fuego, Jugador_Dragones_de_Fuego_7, 1, Francés, Brasilera, Portero, J1106, 19890802, 58, 4, B/B/A/E
-Dragones de Fuego, Jugador_Dragones_de_Fuego_8, 2, Francés/Alemán, Colombiana, Delantero, J1107, 20001107, 52, 2, B/B
-Dragones de Fuego, Jugador_Dragones_de_Fuego_9, 2, Portugués/Italiano, Uruguaya, Mediocampista, J1108, 19991001, 9, 2, B/E
-Dragones de Fuego, Jugador_Dragones_de_Fuego_10, 2, Francés/Italiano, Peruana, Portero, J1109, 20041218, 48, 0
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_1, 2, Inglés/Español, Peruana, Delantero, J1110, 20000809, 67, 1, A
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_2, 2, Español/Italiano, Argentina, Portero, J1111, 19870830, 9, 3, A/E/E
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_3, 2, Inglés/Español, Paraguaya, Defensa, J1112, 20011027, 76, 5, E/B/A/E/A
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_4, 3, Inglés/Italiano/Portugués, Paraguaya, Delantero, J1113, 20021204, 35, 4, B/A/A/B
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_5, 2, Español/Alemán, Chilena, Delantero, J1114, 20030622, 44, 2, B/B
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_6, 1, Francés, Argentina, Defensa, J1115, 19930522, 35, 3, A/A/E
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_7, 2, Portugués/Italiano, Peruana, Delantero, J1116, 20010106, 45, 0
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_8, 1, Portugués, Venezolana, Mediocampista, J1117, 19971119, 19, 2, A/A
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_9, 1, Inglés, Colombiana, Delantero, J1118, 19870122, 25, 0
-Lobos de la Sierra, Jugador_Lobos_de_la_Sierra_10, 1, Portugués, Paraguaya, Portero, J1119, 19900516, 5, 4, B/B/A/B
-Caimanes Verdes, Jugador_Caimanes_Verdes_1, 1, Italiano, Uruguaya, Mediocampista, J1120, 19990121, 4, 3, B/E/A
-Caimanes Verdes, Jugador_Caimanes_Verdes_2, 3, Italiano/Español/Alemán, Chilena, Defensa, J1121, 20030826, 94, 3, B/E/E
-Caimanes Verdes, Jugador_Caimanes_Verdes_3, 2, Portugués/Italiano, Colombiana, Portero, J1122, 19991006, 91, 5, B/A/E/B/B
-Caimanes Verdes, Jugador_Caimanes_Verdes_4, 2, Italiano/Español, Argentina, Mediocampista, J1123, 20030926, 23, 4, E/B/B/A
-Caimanes Verdes, Jugador_Caimanes_Verdes_5, 2, Francés/Alemán, Ecuatoriana, Mediocampista, J1124, 19951023, 82, 2, E/A
-Caimanes Verdes, Jugador_Caimanes_Verdes_6, 3, Inglés/Francés/Español, Chilena, Defensa, J1125, 20010521, 88, 4, A/B/A/E
-Caimanes Verdes, Jugador_Caimanes_Verdes_7, 2, Alemán/Francés, Uruguaya, Portero, J1126, 19871219, 70, 2, A/E
-Caimanes Verdes, Jugador_Caimanes_Verdes_8, 1, Francés, Chilena, Delantero, J1127, 20000103, 46, 0
-Caimanes Verdes, Jugador_Caimanes_Verdes_9, 2, Portugués/Inglés, Peruana, Portero, J1128, 20011028, 7, 3, A/E/A
-Caimanes Verdes, Jugador_Caimanes_Verdes_10, 3, Alemán/Francés/Italiano, Venezolana, Defensa, J1129, 20040107, 63, 1, B
-Búfalos Dorados, Jugador_Búfalos_Dorados_1, 2, Italiano/Francés, Colombiana, Defensa, J1130, 19861212, 5, 1, E
-Búfalos Dorados, Jugador_Búfalos_Dorados_2, 3, Inglés/Portugués/Español, Colombiana, Defensa, J1131, 19980623, 22, 1, A
-Búfalos Dorados, Jugador_Búfalos_Dorados_3, 2, Italiano/Español, Peruana, Delantero, J1132, 20000101, 96, 2, B/A
-Búfalos Dorados, Jugador_Búfalos_Dorados_4, 3, Inglés/Alemán/Italiano, Venezolana, Portero, J1133, 20000626, 7, 0
-Búfalos Dorados, Jugador_Búfalos_Dorados_5, 2, Italiano/Español, Colombiana, Defensa, J1134, 19990326, 58, 4, E/A/A/A
-Búfalos Dorados, Jugador_Búfalos_Dorados_6, 1, Español, Argentina, Mediocampista, J1135, 19911018, 96, 3, A/B/B
-Búfalos Dorados, Jugador_Búfalos_Dorados_7, 1, Portugués, Ecuatoriana, Defensa, J1136, 19960511, 16, 2, E/B
-Búfalos Dorados, Jugador_Búfalos_Dorados_8, 1, Italiano, Colombiana, Mediocampista, J1137, 19911203, 78, 3, E/E/E
-Búfalos Dorados, Jugador_Búfalos_Dorados_9, 2, Inglés/Italiano, Peruana, Mediocampista, J1138, 20040607, 26, 2, A/E
-Búfalos Dorados, Jugador_Búfalos_Dorados_10, 2, Italiano/Portugués, Peruana, Delantero, J1139, 19991205, 47, 2, A/E
-Serpientes Reales, Jugador_Serpientes_Reales_1, 3, Francés/Español/Portugués, Peruana, Mediocampista, J1140, 19880815, 17, 0
-Serpientes Reales, Jugador_Serpientes_Reales_2, 1, Español, Paraguaya, Defensa, J1141, 19881016, 65, 2, B/E
-Serpientes Reales, Jugador_Serpientes_Reales_3, 3, Francés/Español/Inglés, Mexicana, Mediocampista, J1142, 19940721, 14, 0
-Serpientes Reales, Jugador_Serpientes_Reales_4, 1, Italiano, Mexicana, Mediocampista, J1143, 19920918, 77, 3, B/B/B
-Serpientes Reales, Jugador_Serpientes_Reales_5, 2, Italiano/Francés, Venezolana, Mediocampista, J1144, 19960629, 42, 3, A/B/B
-Serpientes Reales, Jugador_Serpientes_Reales_6, 2, Italiano/Portugués, Peruana, Portero, J1145, 19960505, 15, 5, B/A/A/A/A
-Serpientes Reales, Jugador_Serpientes_Reales_7, 2, Francés/Italiano, Argentina, Mediocampista, J1146, 19920212, 92, 0
-Serpientes Reales, Jugador_Serpientes_Reales_8, 3, Inglés/Español/Portugués, Uruguaya, Defensa, J1147, 20011115, 36, 2, B/E
-Serpientes Reales, Jugador_Serpientes_Reales_9, 2, Español/Francés, Brasilera, Defensa, J1148, 19910610, 22, 0
-Serpientes Reales, Jugador_Serpientes_Reales_10, 1, Inglés, Brasilera, Delantero, J1149, 19880601, 96, 2, B/A
+TigresDelNorte Jugador_Tigres_del_Norte_1 2 Italiano Español Mexicana Defensa J1000 20040625 60 1 E
+TigresDelNorte Jugador_Tigres_del_Norte_2 3 Italiano Portugues Ingles Colombiana Mediocampista J1001 19990307 15 0
+TigresDelNorte Jugador_Tigres_del_Norte_3 3 Frances Italiano Portugues Paraguaya Mediocampista J1002 19880115 86 0
+TigresDelNorte Jugador_Tigres_del_Norte_4 1 Portugues Brasilera Defensa J1003 20001018 63 0
+TigresDelNorte Jugador_Tigres_del_Norte_5 2 Ingles Portugues Paraguaya Defensa J1004 19971111 63 5 B E E E A
+TigresDelNorte Jugador_Tigres_del_Norte_6 1 Aleman Paraguaya Defensa J1005 19980322 66 5 A E B A E
+TigresDelNorte Jugador_Tigres_del_Norte_7 1 Español Brasilera Defensa J1006 19850115 47 4 A A E B
+TigresDelNorte Jugador_Tigres_del_Norte_8 2 Aleman Ingles Chilena Defensa J1007 19930909 63 4 A A E A
+TigresDelNorte Jugador_Tigres_del_Norte_9 3 Frances Italiano Aleman Mexicana Mediocampista J1008 20051022 17 0
+TigresDelNorte Jugador_Tigres_del_Norte_10 1 Italiano Ecuatoriana Mediocampista J1009 19951216 76 5 E B E A E
+AguilasDoradas Jugador_Aguilas_Doradas_1 2 Español Portugues Brasilera Mediocampista J1010 19920522 34 5 E A E B A
+AguilasDoradas Jugador_Aguilas_Doradas_2 2 Español Aleman Colombiana Defensa J1011 19850806 81 5 B E A B E
+AguilasDoradas Jugador_Aguilas_Doradas_3 1 Ingles Colombiana Mediocampista J1012 19971005 90 1 B
+AguilasDoradas Jugador_Aguilas_Doradas_4 2 Español Portugues Argentina Mediocampista J1013 20001119 36 3 B B E
+AguilasDoradas Jugador_Aguilas_Doradas_5 3 Italiano Frances Ingles Colombiana Delantero J1014 19971211 74 3 B A A
+AguilasDoradas Jugador_Aguilas_Doradas_6 3 Aleman Ingles Español Ecuatoriana Delantero J1015 19850529 47 1 E
+AguilasDoradas Jugador_Aguilas_Doradas_7 3 Frances Portugues Español Brasilera Portero J1016 19870531 99 4 A B A A
+AguilasDoradas Jugador_Aguilas_Doradas_8 1 Frances Uruguaya Portero J1017 19890725 10 5 B A B B A
+AguilasDoradas Jugador_Aguilas_Doradas_9 1 Español Uruguaya Portero J1018 19871023 5 3 E B E
+AguilasDoradas Jugador_Aguilas_Doradas_10 1 Frances Venezolana Defensa J1019 19920315 58 3 E B A
+LeonesRojos Jugador_Leones_Rojos_1 3 Portugues Aleman Italiano Argentina Defensa J1020 20030630 45 5 A A E B A
+LeonesRojos Jugador_Leones_Rojos_2 2 Ingles Aleman Paraguaya Delantero J1021 19861017 3 1 E
+LeonesRojos Jugador_Leones_Rojos_3 2 Aleman Español Venezolana Mediocampista J1022 19990601 41 5 E E A E E
+LeonesRojos Jugador_Leones_Rojos_4 2 Frances Italiano Brasilera Delantero J1023 20050429 18 3 A A A
+LeonesRojos Jugador_Leones_Rojos_5 3 Español Ingles Frances Colombiana Portero J1024 19880927 42 4 A A B A
+LeonesRojos Jugador_Leones_Rojos_6 1 Frances Colombiana Delantero J1025 20020809 62 4 B B A E
+LeonesRojos Jugador_Leones_Rojos_7 1 Portugues Argentina Defensa J1026 19860116 33 2 E E
+LeonesRojos Jugador_Leones_Rojos_8 1 Italiano Chilena Portero J1027 19990805 66 4 A B B E
+LeonesRojos Jugador_Leones_Rojos_9 2 Portugues Frances Venezolana Defensa J1028 19981231 2 4 B B B B
+LeonesRojos Jugador_Leones_Rojos_10 3 Aleman Italiano Portugues Peruana Defensa J1029 19980803 99 2 B E
+TorosSalvajes Jugador_Toros_Salvajes_1 3 Aleman Ingles Portugues Mexicana Delantero J1030 19890129 92 3 E B B
+TorosSalvajes Jugador_Toros_Salvajes_2 3 Portugues Aleman Frances Uruguaya Mediocampista J1031 19850131 86 0
+TorosSalvajes Jugador_Toros_Salvajes_3 1 Español Argentina Defensa J1032 20040424 68 4 A E E E
+TorosSalvajes Jugador_Toros_Salvajes_4 2 Español Italiano Uruguaya Defensa J1033 19960412 65 3 A E E
+TorosSalvajes Jugador_Toros_Salvajes_5 2 Frances Aleman Argentina Delantero J1034 19920411 55 1 A
+TorosSalvajes Jugador_Toros_Salvajes_6 2 Italiano Portugues Paraguaya Defensa J1035 20000907 74 5 A B E B B
+TorosSalvajes Jugador_Toros_Salvajes_7 3 Portugues Ingles Frances Mexicana Mediocampista J1036 19881206 69 0
+TorosSalvajes Jugador_Toros_Salvajes_8 1 Portugues Argentina Defensa J1037 20050716 41 2 E E
+TorosSalvajes Jugador_Toros_Salvajes_9 3 Ingles Frances Español Chilena Delantero J1038 19880220 9 3 B A E
+TorosSalvajes Jugador_Toros_Salvajes_10 3 Frances Italiano Ingles Argentina Delantero J1039 19910708 47 1 A
+CondoresFC Jugador_Condores_FC_1 3 Aleman Español Portugues Mexicana Defensa J1040 20010426 39 1 B
+CondoresFC Jugador_Condores_FC_2 1 Ingles Colombiana Mediocampista J1041 19910410 3 5 A A B B A
+CondoresFC Jugador_Condores_FC_3 1 Italiano Venezolana Mediocampista J1042 19910201 53 3 A B A
+CondoresFC Jugador_Condores_FC_4 1 Portugues Venezolana Mediocampista J1043 19931016 7 1 A
+CondoresFC Jugador_Condores_FC_5 2 Italiano Portugues Colombiana Mediocampista J1044 19901218 12 2 E B
+CondoresFC Jugador_Condores_FC_6 1 Ingles Chilena Delantero J1045 19890410 82 4 A A A B
+CondoresFC Jugador_Condores_FC_7 1 Portugues Ecuatoriana Portero J1046 20041228 74 0
+CondoresFC Jugador_Condores_FC_8 2 Portugues Aleman Mexicana Defensa J1047 19870114 9 5 B B E B E
+CondoresFC Jugador_Condores_FC_9 2 Aleman Español Paraguaya Delantero J1048 19870824 38 3 E E B
+CondoresFC Jugador_Condores_FC_10 2 Italiano Español Venezolana Portero J1049 19991006 56 4 B A B B
+GuerrerosAzules Jugador_Guerreros_Azules_1 3 Español Aleman Ingles Ecuatoriana Delantero J1050 19871215 20 4 A A B A
+GuerrerosAzules Jugador_Guerreros_Azules_2 3 Italiano Aleman Portugues Ecuatoriana Delantero J1051 19990918 94 4 E A B A
+GuerrerosAzules Jugador_Guerreros_Azules_3 2 Portugues Aleman Colombiana Defensa J1052 19920430 35 4 E A A B
+GuerrerosAzules Jugador_Guerreros_Azules_4 3 Español Portugues Frances Uruguaya Delantero J1053 19970720 23 4 E A A A
+GuerrerosAzules Jugador_Guerreros_Azules_5 3 Ingles Italiano Frances Colombiana Delantero J1054 19881022 93 4 E A B B
+GuerrerosAzules Jugador_Guerreros_Azules_6 1 Italiano Paraguaya Mediocampista J1055 20050709 21 3 E E A
+GuerrerosAzules Jugador_Guerreros_Azules_7 3 Ingles Italiano Español Ecuatoriana Portero J1056 19930430 16 2 E E
+GuerrerosAzules Jugador_Guerreros_Azules_8 3 Ingles Español Frances Chilena Defensa J1057 19940120 28 0
+GuerrerosAzules Jugador_Guerreros_Azules_9 3 Italiano Español Frances Venezolana Portero J1058 20050305 27 2 B E
+GuerrerosAzules Jugador_Guerreros_Azules_10 2 Frances Ingles Paraguaya Mediocampista J1059 19920224 54 4 E A B E
+PumasDelSur Jugador_Pumas_del_Sur_1 3 Aleman Portugues Frances Argentina Mediocampista J1060 19910419 26 0
+PumasDelSur Jugador_Pumas_del_Sur_2 1 Español Chilena Mediocampista J1061 19980215 52 4 A A E A
+PumasDelSur Jugador_Pumas_del_Sur_3 3 Frances Portugues Aleman Argentina Defensa J1062 19981012 84 2 B B
+PumasDelSur Jugador_Pumas_del_Sur_4 3 Aleman Español Frances Argentina Delantero J1063 19931007 19 2 A B
+PumasDelSur Jugador_Pumas_del_Sur_5 2 Italiano Español Venezolana Portero J1064 19910105 9 3 E B A
+PumasDelSur Jugador_Pumas_del_Sur_6 2 Español Frances Paraguaya Defensa J1065 19910116 67 3 B A A
+PumasDelSur Jugador_Pumas_del_Sur_7 3 Ingles Frances Italiano Paraguaya Delantero J1066 19981030 61 1 E
+PumasDelSur Jugador_Pumas_del_Sur_8 2 Frances Aleman Brasilera Portero J1067 19920209 76 3 A E A
+PumasDelSur Jugador_Pumas_del_Sur_9 2 Italiano Aleman Ecuatoriana Mediocampista J1068 19921219 1 3 A B E
+PumasDelSur Jugador_Pumas_del_Sur_10 2 Aleman Ingles Brasilera Mediocampista J1069 20000117 48 0
+HalconesNegros Jugador_Halcones_Negros_1 1 Aleman Chilena Portero J1070 19990721 92 4 A E B B
+HalconesNegros Jugador_Halcones_Negros_2 2 Ingles Frances Venezolana Defensa J1071 19960916 98 2 A B
+HalconesNegros Jugador_Halcones_Negros_3 1 Italiano Uruguaya Portero J1072 19940726 26 2 B A
+HalconesNegros Jugador_Halcones_Negros_4 1 Italiano Venezolana Delantero J1073 19990810 22 1 B
+HalconesNegros Jugador_Halcones_Negros_5 1 Portugues Colombiana Delantero J1074 19961207 18 4 A B A E
+HalconesNegros Jugador_Halcones_Negros_6 1 Italiano Chilena Mediocampista J1075 20020315 23 3 E E B
+HalconesNegros Jugador_Halcones_Negros_7 1 Aleman Peruana Portero J1076 19900511 81 4 E E B A
+HalconesNegros Jugador_Halcones_Negros_8 3 Aleman Ingles Portugues Venezolana Defensa J1077 19970608 38 5 A A E E B
+HalconesNegros Jugador_Halcones_Negros_9 3 Frances Portugues Español Colombiana Delantero J1078 19920215 17 2 A E
+HalconesNegros Jugador_Halcones_Negros_10 2 Portugues Italiano Argentina Defensa J1079 19890929 60 5 B E E E A
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_1 1 Portugues Brasilera Delantero J1080 20020105 4 5 E A B A E
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_2 3 Portugues Español Italiano Brasilera Portero J1081 19910906 82 0
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_3 2 Portugues Español Paraguaya Portero J1082 20010107 1 2 A E
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_4 3 Ingles Español Italiano Peruana Portero J1083 20011009 53 2 A B
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_5 3 Italiano Portugues Frances Paraguaya Defensa J1084 20040127 38 5 E B E B B
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_6 1 Frances Ecuatoriana Mediocampista J1085 20050108 83 1 B
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_7 2 Frances Italiano Uruguaya Portero J1086 20050829 2 0
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_8 3 Frances Español Ingles Peruana Delantero J1087 19920324 52 5 B A E B A
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_9 2 Español Italiano Venezolana Portero J1088 20040430 70 2 A A
+TiburonesDelCaribe Jugador_Tiburones_del_Caribe_10 1 Portugues Ecuatoriana Portero J1089 20040610 50 0
+PanterasBlancas Jugador_Panteras_Blancas_1 2 Frances Aleman Argentina Portero J1090 20030411 61 2 A B
+PanterasBlancas Jugador_Panteras_Blancas_2 1 Italiano Brasilera Delantero J1091 20051112 36 0
+PanterasBlancas Jugador_Panteras_Blancas_3 2 Aleman Portugues Colombiana Mediocampista J1092 19881129 38 2 A A
+PanterasBlancas Jugador_Panteras_Blancas_4 3 Ingles Italiano Español Chilena Delantero J1093 19950418 60 1 B
+PanterasBlancas Jugador_Panteras_Blancas_5 3 Aleman Español Ingles Paraguaya Portero J1094 19870128 19 1 A
+PanterasBlancas Jugador_Panteras_Blancas_6 1 Portugues Mexicana Portero J1095 19950624 79 3 A B E
+PanterasBlancas Jugador_Panteras_Blancas_7 2 Ingles Italiano Argentina Mediocampista J1096 19850220 83 5 A A A E A
+PanterasBlancas Jugador_Panteras_Blancas_8 2 Portugues Ingles Peruana Mediocampista J1097 20021122 80 5 A B B B A
+PanterasBlancas Jugador_Panteras_Blancas_9 1 Aleman Peruana Portero J1098 19970726 73 4 B B E B
+PanterasBlancas Jugador_Panteras_Blancas_10 2 Italiano Español Paraguaya Defensa J1099 19930402 30 1 A
+DragonesDeFuego Jugador_Dragones_de_Fuego_1 1 Portugues Paraguaya Mediocampista J1100 20010507 1 2 A A
+DragonesDeFuego Jugador_Dragones_de_Fuego_2 1 Portugues Peruana Portero J1101 20030326 25 1 E
+DragonesDeFuego Jugador_Dragones_de_Fuego_3 2 Frances Español Uruguaya Defensa J1102 19970312 69 2 A B
+DragonesDeFuego Jugador_Dragones_de_Fuego_4 1 Aleman Brasilera Mediocampista J1103 19920410 78 2 B E
+DragonesDeFuego Jugador_Dragones_de_Fuego_5 2 Italiano Aleman Brasilera Delantero J1104 19900514 52 1 A
+DragonesDeFuego Jugador_Dragones_de_Fuego_6 2 Ingles Aleman Uruguaya Portero J1105 20030821 49 2 E B
+DragonesDeFuego Jugador_Dragones_de_Fuego_7 1 Frances Brasilera Portero J1106 19890802 58 4 B B A E
+DragonesDeFuego Jugador_Dragones_de_Fuego_8 2 Frances Aleman Colombiana Delantero J1107 20001107 52 2 B B
+DragonesDeFuego Jugador_Dragones_de_Fuego_9 2 Portugues Italiano Uruguaya Mediocampista J1108 19991001 9 2 B E
+DragonesDeFuego Jugador_Dragones_de_Fuego_10 2 Frances Italiano Peruana Portero J1109 20041218 48 0
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_1 2 Ingles Español Peruana Delantero J1110 20000809 67 1 A
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_2 2 Español Italiano Argentina Portero J1111 19870830 9 3 A E E
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_3 2 Ingles Español Paraguaya Defensa J1112 20011027 76 5 E B A E A
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_4 3 Ingles Italiano Portugues Paraguaya Delantero J1113 20021204 35 4 B A A B
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_5 2 Español Aleman Chilena Delantero J1114 20030622 44 2 B B
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_6 1 Frances Argentina Defensa J1115 19930522 35 3 A A E
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_7 2 Portugues Italiano Peruana Delantero J1116 20010106 45 0
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_8 1 Portugues Venezolana Mediocampista J1117 19971119 19 2 A A
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_9 1 Ingles Colombiana Delantero J1118 19870122 25 0
+LobosDeLaSierra Jugador_Lobos_de_la_Sierra_10 1 Portugues Paraguaya Portero J1119 19900516 5 4 B B A B
+CaimanesVerdes Jugador_Caimanes_Verdes_1 1 Italiano Uruguaya Mediocampista J1120 19990121 4 3 B E A
+CaimanesVerdes Jugador_Caimanes_Verdes_2 3 Italiano Español Aleman Chilena Defensa J1121 20030826 94 3 B E E
+CaimanesVerdes Jugador_Caimanes_Verdes_3 2 Portugues Italiano Colombiana Portero J1122 19991006 91 5 B A E B B
+CaimanesVerdes Jugador_Caimanes_Verdes_4 2 Italiano Español Argentina Mediocampista J1123 20030926 23 4 E B B A
+CaimanesVerdes Jugador_Caimanes_Verdes_5 2 Frances Aleman Ecuatoriana Mediocampista J1124 19951023 82 2 E A
+CaimanesVerdes Jugador_Caimanes_Verdes_6 3 Ingles Frances Español Chilena Defensa J1125 20010521 88 4 A B A E
+CaimanesVerdes Jugador_Caimanes_Verdes_7 2 Aleman Frances Uruguaya Portero J1126 19871219 70 2 A E
+CaimanesVerdes Jugador_Caimanes_Verdes_8 1 Frances Chilena Delantero J1127 20000103 46 0
+CaimanesVerdes Jugador_Caimanes_Verdes_9 2 Portugues Ingles Peruana Portero J1128 20011028 7 3 A E A
+CaimanesVerdes Jugador_Caimanes_Verdes_10 3 Aleman Frances Italiano Venezolana Defensa J1129 20040107 63 1 B
+BufalosDorados Jugador_Bufalos_Dorados_1 2 Italiano Frances Colombiana Defensa J1130 19861212 5 1 E
+BufalosDorados Jugador_Bufalos_Dorados_2 3 Ingles Portugues Español Colombiana Defensa J1131 19980623 22 1 A
+BufalosDorados Jugador_Bufalos_Dorados_3 2 Italiano Español Peruana Delantero J1132 20000101 96 2 B A
+BufalosDorados Jugador_Bufalos_Dorados_4 3 Ingles Aleman Italiano Venezolana Portero J1133 20000626 7 0
+BufalosDorados Jugador_Bufalos_Dorados_5 2 Italiano Español Colombiana Defensa J1134 19990326 58 4 E A A A
+BufalosDorados Jugador_Bufalos_Dorados_6 1 Español Argentina Mediocampista J1135 19911018 96 3 A B B
+BufalosDorados Jugador_Bufalos_Dorados_7 1 Portugues Ecuatoriana Defensa J1136 19960511 16 2 E B
+BufalosDorados Jugador_Bufalos_Dorados_8 1 Italiano Colombiana Mediocampista J1137 19911203 78 3 E E E
+BufalosDorados Jugador_Bufalos_Dorados_9 2 Ingles Italiano Peruana Mediocampista J1138 20040607 26 2 A E
+BufalosDorados Jugador_Bufalos_Dorados_10 2 Italiano Portugues Peruana Delantero J1139 19991205 47 2 A E
+SerpientesReales Jugador_Serpientes_Reales_1 3 Frances Español Portugues Peruana Mediocampista J1140 19880815 17 0
+SerpientesReales Jugador_Serpientes_Reales_2 1 Español Paraguaya Defensa J1141 19881016 65 2 B E
+SerpientesReales Jugador_Serpientes_Reales_3 3 Frances Español Ingles Mexicana Mediocampista J1142 19940721 14 0
+SerpientesReales Jugador_Serpientes_Reales_4 1 Italiano Mexicana Mediocampista J1143 19920918 77 3 B B B
+SerpientesReales Jugador_Serpientes_Reales_5 2 Italiano Frances Venezolana Mediocampista J1144 19960629 42 3 A B B
+SerpientesReales Jugador_Serpientes_Reales_6 2 Italiano Portugues Peruana Portero J1145 19960505 15 5 B A A A A
+SerpientesReales Jugador_Serpientes_Reales_7 2 Frances Italiano Argentina Mediocampista J1146 19920212 92 0
+SerpientesReales Jugador_Serpientes_Reales_8 3 Ingles Español Portugues Uruguaya Defensa J1147 20011115 36 2 B E
+SerpientesReales Jugador_Serpientes_Reales_9 2 Español Frances Brasilera Defensa J1148 19910610 22 0
+SerpientesReales Jugador_Serpientes_Reales_10 1 Ingles Brasilera Delantero J1149 19880601 96 2 B A

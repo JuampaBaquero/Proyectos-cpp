@@ -65,7 +65,7 @@ struct Equipo
     Jugador jugadores[10];
     string nombre; // Nombre corto, por ejemplo, BRA, COL...
     int numJugadores;
-    char grupo; //Es d (dieciseisavos), o (octavos), s (semis), f (final) ((minúsculas))
+    char grupo; //Es d (dieciseisavos), o (octavos), c (cuartos), s (semis), f (final) ((minúsculas))
 };
 
 struct Torneo{
@@ -133,6 +133,19 @@ Torneo cargaDatos()
     Torneo miTorneo;
     if(leerEquipos(miTorneo) || leerJugadores(miTorneo) || leerPartidos(miTorneo)) miTorneo.cargoBien = false;
     return miTorneo;
+}
+
+char subirFase(char grupo)
+{
+    if(grupo == 'A' || 
+       grupo == 'B' || 
+       grupo == 'C' || 
+       grupo == 'D') return 'd';
+    if(grupo == 'd') return 'o';
+    if(grupo == 'o') return 'c';
+    if(grupo == 'c') return 's';
+    if(grupo == 's') return 'f';
+    if(grupo == 'f') return 'G';
 }
 
 int buscarEquipo(string buscar, Torneo torneo)
@@ -249,7 +262,7 @@ bool leerJugadores(Torneo &torneo)
         torneo.equipos[indiceEquipo].jugadores[jugadorAct] = jugadorActObj;
         jugadorAct++;
     }
-
+    flujoJugadores.close();
     return false;
 }
 
@@ -351,10 +364,13 @@ void jugarPartido(Torneo &torneo, int idPartido)
     }
     int dif = torneo.partidos[idPartido].golLocal - torneo.partidos[idPartido].golVisitantes; 
     
-    if(dif < 0) // gana el visitante
-    {
-        
-    }
+    //gana el visitante
+    if(dif < 0) torneo.equipos[idVis].grupo = subirFase(torneo.equipos[idVis].grupo); 
+
+    //gana el local
+    else if(dif > 0) torneo.equipos[idLocal].grupo = subirFase(torneo.equipos[idLocal].grupo);
+
+    
 }
 
 void incluirEquipo(Torneo &torneo, Equipo equipo)
