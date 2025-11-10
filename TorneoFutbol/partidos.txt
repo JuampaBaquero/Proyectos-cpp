@@ -1,0 +1,104 @@
+TigresDelNorte AguilasDoradas EstadioCentral Arbitro1 20250110 2 1 5
+>> Jugador_Tigres_del_Norte_4 TigresDelNorte 1 0 A 78
+>> Jugador_Tigres_del_Norte_10 TigresDelNorte 1 1 A 72
+>> Jugador_Aguilas_Doradas_5 AguilasDoradas 1 0 B 84
+>> Jugador_Aguilas_Doradas_7 AguilasDoradas 0 0 A 65
+>> Jugador_Tigres_del_Norte_8 TigresDelNorte 0 1 E 90
+
+AguilasDoradas LeonesRojos ArenaDorada Arbitro2 20250111 1 3 5
+>> Jugador_Leones_Rojos_4 LeonesRojos 2 0 A 88
+>> Jugador_Leones_Rojos_6 LeonesRojos 1 1 A 76
+>> Jugador_Aguilas_Doradas_3 AguilasDoradas 1 0 B 82
+>> Jugador_Leones_Rojos_1 LeonesRojos 0 1 A 90
+>> Jugador_Aguilas_Doradas_10 AguilasDoradas 0 0 A 65
+
+LeonesRojos TorosSalvajes ColiseoRojo Arbitro3 20250112 0 0 5
+>> Jugador_Leones_Rojos_5 LeonesRojos 0 0 A 90
+>> Jugador_Toros_Salvajes_2 TorosSalvajes 0 0 A 77
+>> Jugador_Toros_Salvajes_3 TorosSalvajes 0 0 E 68
+>> Jugador_Leones_Rojos_7 LeonesRojos 0 0 B 85
+>> Jugador_Toros_Salvajes_8 TorosSalvajes 0 0 A 74
+
+TorosSalvajes CondoResFC EstadioSalvaje Arbitro4 20250113 4 2 5
+>> Jugador_Toros_Salvajes_1 TorosSalvajes 2 1 A 90
+>> Jugador_Toros_Salvajes_5 TorosSalvajes 1 0 B 75
+>> Jugador_Condores_FC_6 CondoresFC 1 0 A 81
+>> Jugador_Condores_FC_9 CondoresFC 1 1 A 79
+>> Jugador_Toros_Salvajes_9 TorosSalvajes 1 0 A 82
+
+CondoresFC GuerrerosAzules NidoCondor Arbitro5 20250114 1 1 5
+>> Jugador_Condores_FC_4 CondoresFC 1 0 A 70
+>> Jugador_Guerreros_Azules_1 GuerrerosAzules 1 0 A 88
+>> Jugador_Condores_FC_7 CondoresFC 0 0 A 63
+>> Jugador_Guerreros_Azules_6 GuerrerosAzules 0 1 A 77
+>> Jugador_Guerreros_Azules_9 GuerrerosAzules 0 0 E 85
+
+GuerrerosAzules PumasDelSur ArenaAzul Arbitro6 20250115 3 2 5
+>> Jugador_Guerreros_Azules_4 GuerrerosAzules 2 0 A 90
+>> Jugador_Guerreros_Azules_5 GuerrerosAzules 1 1 A 83
+>> Jugador_Pumas_del_Sur_4 PumasDelSur 1 0 A 80
+>> Jugador_Pumas_del_Sur_1 PumasDelSur 1 1 B 76
+>> Jugador_Guerreros_Azules_7 GuerrerosAzules 0 0 B 65
+
+PumasDelSur HalconesNegros EstadioSur Arbitro7 20250116 2 0 5
+>> Jugador_Pumas_del_Sur_2 PumasDelSur 1 0 A 85
+>> Jugador_Pumas_del_Sur_7 PumasDelSur 1 1 A 90
+>> Jugador_Halcones_Negros_5 HalconesNegros 0 0 B 66
+>> Jugador_Halcones_Negros_1 HalconesNegros 0 0 A 78
+>> Jugador_Pumas_del_Sur_3 PumasDelSur 0 1 A 81
+
+HalconesNegros TiburonesDelCaribe NidoNegro Arbitro8 20250117 1 4 5
+>> Jugador_Tiburones_del_Caribe_8 TiburonesDelCaribe 2 1 A 90
+>> Jugador_Tiburones_del_Caribe_5 TiburonesDelCaribe 1 0 B 85
+>> Jugador_Tiburones_del_Caribe_1 TiburonesDelCaribe 1 0 A 77
+>> Jugador_Halcones_Negros_4 HalconesNegros 1 0 A 82
+>> Jugador_Halcones_Negros_9 HalconesNegros 0 0 A 65
+
+TiburonesDelCaribe PanterasBlancas ArenaCaribe Arbitro9 20250118 0 2 5
+>> Jugador_Panteras_Blancas_4 PanterasBlancas 1 0 A 79
+>> Jugador_Panteras_Blancas_7 PanterasBlancas 1 1 B 88
+>> Jugador_Tiburones_del_Caribe_6 TiburonesDelCaribe 0 0 E 66
+>> Jugador_Tiburones_del_Caribe_3 TiburonesDelCaribe 0 0 A 74
+>> Jugador_Panteras_Blancas_2 PanterasBlancas 0 0 A 62
+
+PanterasBlancas DragonesDeFuego EstadioBlanco Arbitro10 20250119 1 1 5
+>> Jugador_Dragones_de_Fuego_5 DragonesDeFuego 1 0 A 88
+>> Jugador_Panteras_Blancas_1 PanterasBlancas 1 1 A 90
+>> Jugador_Panteras_Blancas_10 PanterasBlancas 0 0 B 60
+>> Jugador_Dragones_de_Fuego_7 DragonesDeFuego 0 0 A 73
+>> Jugador_Dragones_de_Fuego_3 DragonesDeFuego 0 1 A 80
+
+DragonesDeFuego LobosDeLaSierra ColiseoFuego Arbitro11 20250120 3 5 5
+>> Jugador_Lobos_de_la_Sierra_3 LobosDeLaSierra 2 1 A 90
+>> Jugador_Lobos_de_la_Sierra_1 LobosDeLaSierra 2 1 B 83
+>> Jugador_Dragones_de_Fuego_1 DragonesDeFuego 1 0 A 76
+>> Jugador_Dragones_de_Fuego_8 DragonesDeFuego 1 0 A 85
+>> Jugador_Lobos_de_la_Sierra_5 LobosDeLaSierra 1 0 A 78
+
+LobosDeLaSierra CaimanesVerdes EstadioLobo Arbitro12 20250121 2 2 5
+>> Jugador_Caimanes_Verdes_6 CaimanesVerdes 1 0 A 90
+>> Jugador_Lobos_de_la_Sierra_4 LobosDeLaSierra 1 1 A 82
+>> Jugador_Caimanes_Verdes_2 CaimanesVerdes 1 1 E 74
+>> Jugador_Lobos_de_la_Sierra_7 LobosDeLaSierra 1 0 B 81
+>> Jugador_Lobos_de_la_Sierra_6 LobosDeLaSierra 0 0 A 63
+
+CaimanesVerdes BufalosDorados PantanoVerde Arbitro13 20250122 4 1 5
+>> Jugador_Caimanes_Verdes_3 CaimanesVerdes 2 0 A 90
+>> Jugador_Caimanes_Verdes_9 CaimanesVerdes 1 1 A 84
+>> Jugador_Caimanes_Verdes_10 CaimanesVerdes 1 0 E 76
+>> Jugador_Bufalos_Dorados_3 BufalosDorados 1 0 B 83
+>> Jugador_Caimanes_Verdes_5 CaimanesVerdes 0 1 A 72
+
+BufalosDorados SerpientesReales ArenaDorada Arbitro14 20250123 0 3 5
+>> Jugador_Serpientes_Reales_10 SerpientesReales 2 0 A 90
+>> Jugador_Serpientes_Reales_5 SerpientesReales 1 1 A 84
+>> Jugador_Bufalos_Dorados_4 BufalosDorados 0 0 A 70
+>> Jugador_Bufalos_Dorados_7 BufalosDorados 0 0 B 62
+>> Jugador_Serpientes_Reales_8 SerpientesReales 0 1 A 77
+
+SerpientesReales TigresDelNorte ColiseoReal Arbitro15 20250124 1 2 5
+>> Jugador_Tigres_del_Norte_2 TigresDelNorte 1 1 A 88
+>> Jugador_Tigres_del_Norte_5 TigresDelNorte 1 0 A 82
+>> Jugador_Serpientes_Reales_4 SerpientesReales 1 0 A 79
+>> Jugador_Tigres_del_Norte_1 TigresDelNorte 0 1 A 72
+>> Jugador_Serpientes_Reales_9 SerpientesReales 0 0 A 64
