@@ -130,13 +130,20 @@ void mostrarTodoXD(Torneo &torneo){
     {
         cout << "Equipo: " << torneo.equipos[i].nombre << endl
              << "Numero de jugadores: " << torneo.equipos[i].numJugadores << endl
-             << "Jugadores: \n";
+             << "Jugadores: \n\n";
 
         for(int j = 0; j < torneo.equipos[i].numJugadores; j++)
         {
-            cout << "\t" << j + 1 << ") " << torneo.equipos[i].jugadores[j].nombre; 
-        } 
+            cout << "\t" << j + 1 << ") " << torneo.equipos[i].jugadores[j].nombre << endl; 
+        }
     }
+    cout << "\n\n\nLOS PARTIDOS: \n\n";
+
+    for(int i = 0; i < torneo.numPartidos; i++)
+    {
+        cout << torneo.partidos[i].local << "vs. " << torneo.partidos[i].visitante << endl;
+    }
+    system("pause");
 }
 
 int imprimirMenu()
@@ -339,18 +346,24 @@ bool leerJugadores(Torneo &torneo)
 
 bool leerPartidos(Torneo &torneo)
 {
-
-// num partidos
-// local, visitante, sede, arbitro, fecha, goles local, goles visitantes, numJugadores estadística
+    // num partidos
+    // local, visitante, sede, arbitro, fecha, goles local,
+    // goles visitantes, numJugadores estadística
 
     string buffer;
     ifstream flujoPartidos("partidos.txt", ios::in);
 
+    stringstream ss;
+
+    // numPartidos
     flujoPartidos >> buffer;
-    torneo.numPartidos = stoi(buffer);
+    ss.clear();
+    ss.str(buffer);
+    ss >> torneo.numPartidos;
 
     for(int i = 0; i < torneo.numPartidos; i++)
     {
+        // equipo local
         flujoPartidos >> buffer;
         if(buscarEquipo(buffer, torneo) == -1) 
         {
@@ -359,6 +372,7 @@ bool leerPartidos(Torneo &torneo)
         } 
         torneo.partidos[i].local = buffer;
         
+        // equipo visitante
         flujoPartidos >> buffer;
         if(buscarEquipo(buffer, torneo) == -1)
         {
@@ -367,30 +381,49 @@ bool leerPartidos(Torneo &torneo)
         } 
         torneo.partidos[i].visitante = buffer;
 
+        // sede
         flujoPartidos >> buffer;
         torneo.partidos[i].sede = buffer;
         
+        // arbitro
         flujoPartidos >> buffer;
         torneo.partidos[i].arbitro = buffer;
 
+        // visitante repetido (asumo que es un error y debe ser algo más)
         flujoPartidos >> buffer;
         torneo.partidos[i].visitante = buffer;
 
+        // fecha
         flujoPartidos >> buffer;
-        torneo.partidos[i].fecha = stoi(buffer);
+        ss.clear();
+        ss.str(buffer);
+        ss >> torneo.partidos[i].fecha;
 
+        // goles local
         flujoPartidos >> buffer;
-        torneo.partidos[i].golLocal = stoi(buffer);
+        ss.clear();
+        ss.str(buffer);
+        ss >> torneo.partidos[i].golLocal;
 
+        // goles visitantes
         flujoPartidos >> buffer;
-        torneo.partidos[i].golVisitantes = stoi(buffer);
+        ss.clear();
+        ss.str(buffer);
+        ss >> torneo.partidos[i].golVisitantes;
 
+        // num jugadores cambiados
         flujoPartidos >> buffer;
-        torneo.partidos[i].numJugCambiados = stoi(buffer);
+        ss.clear();
+        ss.str(buffer);
+        ss >> torneo.partidos[i].numJugCambiados;
 
         // -> por jugador: equipo, nombre, numgoles, asistencias, tarjetas, minJugados
+
+        // equipo
         flujoPartidos >> buffer;
-        int equipoAct = buscarEquipo(buffer, torneo); 
+        int equipoAct = buscarEquipo(buffer, torneo);
+
+        // nombre
         flujoPartidos >> buffer;
         if(equipoAct == -1)
         {
@@ -401,27 +434,43 @@ bool leerPartidos(Torneo &torneo)
         int jugadorAct = -1;
         for(int j = 0; j < torneo.equipos[equipoAct].numJugadores; j++)
         {
-            if(torneo.equipos[equipoAct].jugadores[j].nombre == buffer) jugadorAct = j;
+            if(torneo.equipos[equipoAct].jugadores[j].nombre == buffer)
+                jugadorAct = j;
         }
-        if(jugadorAct == 1)
+        if(jugadorAct == -1)
         {
             cout << "El jugador " << buffer << " no se ha encontrado en el equipo.";
             return true;
         }
+
+        // num goles
         flujoPartidos >> buffer;
-        torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.numGoles += stoi(buffer);
-        
+        ss.clear();
+        ss.str(buffer);
+        ss >> torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.numGoles;
+
+        // asistencias
         flujoPartidos >> buffer;
-        torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.asistencias += stoi(buffer);
-        
+        ss.clear();
+        ss.str(buffer);
+        ss >> torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.asistencias;
+
+        // tarjetas
         flujoPartidos >> buffer;
-        torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.tarjetas += stoi(buffer);
-        
+        ss.clear();
+        ss.str(buffer);
+        ss >> torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.tarjetas;
+
+        // minutos jugados
         flujoPartidos >> buffer;
-        torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.minJugados += stoi(buffer);
+        ss.clear();
+        ss.str(buffer);
+        ss >> torneo.equipos[equipoAct].jugadores[jugadorAct].estadisticas.minJugados;
     }
+
     return false;
 }
+
 void jugarPartido(Torneo &torneo, int idPartido)
 {
     int idLocal = buscarEquipo(torneo.partidos[idPartido].local, torneo);
